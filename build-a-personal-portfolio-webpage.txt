@@ -1,0 +1,127 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <a href="#welcome-section" class="nav-link">Welcome</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm [Your Name]. I'm a web developer. Check out my projects below!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-tile">
+            <a href="https://github.com/your-github-username/project1" target="_blank">
+                <img src="https://via.placeholder.com/150" alt="Project 1">
+                <p>Project 1</p>
+            </a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to get in touch, find me on <a id="profile-link" href="https://github.com/your-github-username" target="_blank">GitHub</a>.</p>
+    </section>
+</body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+#navbar nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-tile {
+    margin: 20px;
+}
+
+.project-tile img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #navbar nav {
+        flex-direction: column;
+    }
+}
+
+
+** end of undefined **
+

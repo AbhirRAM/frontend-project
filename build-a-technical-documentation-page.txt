@@ -1,0 +1,184 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+        <a class="nav-link" href="#JavaScript_Essentials">JavaScript Essentials</a>
+        <a class="nav-link" href="#Advanced_Topics">Advanced Topics</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Welcome to the technical documentation page. Here you will find information on various web development topics.</p>
+            <p>The topics covered include HTML, CSS, JavaScript, and more.</p>
+        </section>
+
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages.</p>
+            <p>HTML elements are the building blocks of HTML pages.</p>
+            <p>Examples of HTML elements include headings, paragraphs, and links.</p>
+            <code>&lt;h1&gt;Heading&lt;/h1&gt;</code>
+            <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+            <ul>
+                <li>HTML is easy to learn</li>
+                <li>It is widely used</li>
+                <li>It forms the structure of web pages</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="CSS_Fundamentals">
+            <header>CSS Fundamentals</header>
+            <p>CSS stands for Cascading Style Sheets. It is used to style and layout web pages.</p>
+            <p>CSS can control the color, font, spacing, and layout of HTML elements.</p>
+            <code>body { background-color: #f4f4f4; }</code>
+            <code>h1 { color: #333; }</code>
+            <ul>
+                <li>CSS is easy to learn</li>
+                <li>It enhances the appearance of web pages</li>
+                <li>It provides layout control</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="JavaScript_Essentials">
+            <header>JavaScript Essentials</header>
+            <p>JavaScript is a programming language used to create interactive effects within web browsers.</p>
+            <p>It allows you to implement complex features on web pages.</p>
+            <code>console.log('Hello, world!');</code>
+            <code>function greet(name) { return 'Hello, ' + name; }</code>
+            <ul>
+                <li>JavaScript is versatile</li>
+                <li>It is essential for web development</li>
+                <li>It can manipulate HTML and CSS</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Advanced_Topics">
+            <header>Advanced Topics</header>
+            <p>Advanced topics in web development include frameworks, APIs, and performance optimization.</p>
+            <p>Frameworks like React and Angular simplify building complex applications.</p>
+            <code>import React from 'react';</code>
+            <code>const App = () =&gt; &lt;div&gt;Hello&lt;/div&gt;;</code>
+            <ul>
+                <li>APIs allow communication between different systems</li>
+                <li>Performance optimization improves user experience</li>
+                <li>Advanced topics require deeper understanding</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+bodbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar header {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 3px solid #333;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .nav-link {
+        margin-bottom: 5px;
+    }
+}
+
+
+
+** end of undefined **
+
